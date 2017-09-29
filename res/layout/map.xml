@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/txtRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/map"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btCariKosAnda"
+        android:ems="10"
+        android:hint="jarak dalam KM"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+    
+     <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btCariKosAnda" />
+
+     <Button
+         android:id="@+id/btCariKosAnda"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:text="Cari Kos" />
+
+</RelativeLayout>

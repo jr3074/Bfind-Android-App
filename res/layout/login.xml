@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget48"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffffff"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget50"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Username"
+	android:textColor="#ff000000" />
+
+<EditText
+    android:id="@+id/User"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Username"
+    android:textSize="18sp" />
+
+<TextView
+	android:id="@+id/widget54"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Password"
+	android:textColor="#ff000000" />
+
+<EditText
+    android:id="@+id/Pass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Password"
+    android:inputType="textPassword" >
+
+    <requestFocus />
+</EditText>
+
+<Button
+    android:id="@+id/loginBt"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/btlogin"
+    android:textColor="#ff0033ff" />
+
+</LinearLayout>
